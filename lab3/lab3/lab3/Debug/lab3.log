@@ -1,0 +1,8 @@
+﻿  Main.cpp
+c:\users\user\desktop\1studing\mathmod\labs\mathmod-labs\lab3\lab3\lab3\main.cpp(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\1studing\mathmod\labs\mathmod-labs\lab3\lab3\lab3\main.cpp(80): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\user\desktop\1studing\mathmod\labs\mathmod-labs\lab3\lab3\lab3\main.cpp(92): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\user\desktop\1studing\mathmod\labs\mathmod-labs\lab3\lab3\lab3\main.cpp(95): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\user\desktop\1studing\mathmod\labs\mathmod-labs\lab3\lab3\lab3\main.cpp(98): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\user\desktop\1studing\mathmod\labs\mathmod-labs\lab3\lab3\lab3\main.cpp(99): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  lab3.vcxproj -> C:\Users\User\Desktop\1studing\MathMod\labs\MathMod-labs\lab3\lab3\Debug\lab3.exe
