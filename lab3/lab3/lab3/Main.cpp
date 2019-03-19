@@ -164,10 +164,7 @@ int main()
 	cout << "Экспоненциальное распределение \n";
 
 	for (int i = 0; i < N; i++)
-		expc[i] = -1.0 / lmbd * log(b[i]);
-	for (int i = 0; i < N; i++)
-		cout << func_exp(expc[i]) << ' ';
-	cout << "\n";
+		expc[i] = -1.0 / lmbd * log(1 - b[i]);
 
 	double E_ok = 1.0 / lmbd, D_ok = 1.0 / (lmbd * lmbd);
 	E_D(expc, E_ok, D_ok);
@@ -180,9 +177,6 @@ int main()
 
 	for (int i = 0; i < N; i++)
 		logt[i] = A + B * log((1.0 - b[i]) / b[i]) ; 
-	for (int i = 0; i < N; i++)
-		cout << func_logistic(logt[i]) << ' ';
-	cout << "\n";
 
 	E_ok = A, D_ok = 3.2899 * B * B;
 	E_D(logt, E_ok, D_ok);
